@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./main.js"></script>
+   <link rel="stylesheet" href='./main.css'>
+
+    <title>Gala ENT and Eye Care</title>
+    <style>
+
+       ::placeholder{
+         color:black;
+         opacity:1;
+       }
+      #map {
+        height: 100%;
+        width: 100%;
+      }
+
+      #wrapper {
+        position: relative;
+      }
+
+      #over_map {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 99;
+      }
+
+
+    </style>
+
+  </head>
+
+
+
+
+  <body>
+
+    <!-- First Nav -->
+    
+  <body>
+
+
+    <!-- First Nav -->
+  <nav>
+    <div class="nav-wrapper #1e88e5 blue darken-1" id="detailsnav">
+      <ul class="center-align">
+        <li style="width:40%;"><a href="tel: +91-022-23823445"><i class="material-icons" style="display:inline-flex;vertical-align: top;">call</i>      022-23823435</a></li>
+        <li style="width:60%;"><a class="waves-effect waves-light btn" href="contactus.html#form" >Appointment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  
+  <!--Second Nav-->
+
+
+
+<nav class="#e3f2fd blue lighten-5 second_nav" style="color:#1e88e5" >
+  <div class="nav-wrapper" style="color:#1e88e5" >
+    <a href="index.html" class="brand-logo">
+      <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/cat-21-81494.png" alt="Logo" style="height:58px">
+    </a>
+    <a href="#" data-target="second_nav" class="sidenav-trigger  btn  center-align #e3f2fd blue lighten-5" style="color:black"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="hide-on-med-and-down temp center-align" style="margin-left:10%">
+
+      <li style="width:15%"><a href="index.html">Home</a></li>
+      <li style="width:15%"><a href="aboutus.html">About Us</a></li>
+      <li style="width:15%"><a href="services.html">Services </a>
+        <ul >
+          <li><a >ENT <span style="float:right">&#9656;</span></a>
+            <ul>
+              <li><a href='./services/ent/audiometry.html'>Audiometry</a></li>
+              <li><a href='./services/ent/rhinoplasty.html'>Rhinoplasty</a></li>
+              <li><a ref='./services/ent/hearing-aids.html'>Hearing Aids</a></li>
+              <li><a href='./services/ent/throat-surgery.html'>Throat Surgeries</a></li>
+              <li><a href='./services/ent/Uvulopalatopharyngoplasty.html'>Ear Surgeries</a></li>
+            </ul>
+          </li>
+          <li><a >Eye<span style="float:right">&#9656;</span></a>
+            <ul style="width:inherit">
+              <li><a href='./services/eye/catract.html'>Cataract</a></li>
+              <li><a href='./services/eye/glaucoma.html'>Glaucoma</a></li>           
+              <li><a href='./services/eye/squint.html'>Squint</a></li>
+              <li><a href='./services/eye/eyelid-disorders.html'>Eyelid Disorders</a></li>
+              <li><a href='./services/eye/dry-eyes.html'>Dry Eyes</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </li>
+      <li style="width:15%"><a href="faq.html">FAQs</a></li>
+      <li style="width:15%"><a href="gallery.html">Gallery</a></li>
+      <li style="width:15%"><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<!--Mobile side nav-->
+<ul class="sidenav #bbdefb blue lighten-4" id="second_nav" style="margin-left:0;margin-top: 115px;">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="faq.html">FAQs</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li>
+    <ul class="collapsible">
+      <li style="margin-left: 20px">
+        <a class="collapsible-header waves-effect waves-blue" >Services<i class="material-icons right" style="margin-right:0">arrow_drop_down</i></a>
+        <div class="collapsible-body">
+          <ul>
+            <li>
+              <ul class="collapsible">
+                <li>
+                  <a class="collapsible-header waves-effect waves-blue">ENT<i class="material-icons right" style="margin-right:0;">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/audiometry.html'>Audiometry</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/rhinoplasty.html'>Rhinoplasty</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/hearing-aids.html'>Hearing Aids</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/throat-surgery.html'>Throat Surgeries</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/Uvulopalatopharyngoplasty.html'>Ear Surgeries</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="collapsible">
+                <li>
+                  <a class="collapsible-header waves-effect waves-blue">Eye<i class="material-icons right" style="margin-right:0;">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a class="waves-effect waves-blue" href='./services/eye/catract.html'>Cataract</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/eye/glaucoma.html'>Glaucoma</a></li>           
+                      <li><a class="waves-effect waves-blue" href='./services/eye/squint.html'>Squint</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/eye/eyelid-disorders.html'>Eyelid Disorders</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/eye/dry-eyes.html'>Dry Eyes</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li><div class="divider"></div></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </li>
+
+  <li><a href="contactus.html">Contact Us</a></li>
+</ul>
+
+<div class="fixed-action-btn" >
+  <a class="btn-floating btn-large blue" id="myBtn" style="display: none;" onclick="topFunction()">
+    <i class="large material-icons">keyboard_arrow_up</i>
+  </a>
+</div>
+
+
+<!--First row -->
+<style> .card-title{
+  color:white;
+}
+</style>
+  <div class="row section">
+    <div class=" center-align "  >
+      <div class="col s12 l4">
+         <div class="card #e3f2fd blue lighten-5" style="height:222px;">
+          <div class="card-content black-text" >
+            <span class="card-title blue-text"><i class="material-icons">access_time</i>  Timings</span>
+            <p>Monday-Saturday, 4PM-8PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 l4" >
+         <div class="card #e3f2fd blue lighten-5  text-lighten-4"style="height:222px">
+          <div class="card-content black-text">
+
+            <span class="card-title blue-text"><i class="material-icons">place</i>   Address</span>
+            <p ><a href="#map" style="color:black; text-decoration: none;" >6, Kailash Darshan, Grant Road, Mumbai-400007</a></p>
+          </div>
+        </div>
+      </div>
+   
+      <div class="col s12 l4">
+         <div class="card #e3f2fd blue lighten-5 " >
+          <div class="card-content black-text" style="line-height:3em">
+            <span class="card-title blue-text"><i class="material-icons">call</i>  Email and Phone</span>
+            <span>  Tel 022-23823435</span>
+            <p><i class="material-icons">hearing</i>   ENT Queries: +91 9821044727</p>
+            <p><i class="material-icons">remove_red_eye</i>    Eye Queries: +91 9323123435</p>
+          </div>
+        </div>
+       </div>
+      </div>
+    
+  </div>
+
+<!--Form-->
+
+<div class="fixed-action-btn" >
+  <a class="btn-floating btn-large red" id="myBtn" style="display: none;" onclick="topFunction()">
+    <i class="large material-icons">keyboard_arrow_up</i>
+  </a>
+</div>
+
+<div class="row " id="form">
+  <div class=" section col s12 m12 l12 left-align" style=>
+    <div class="card #e3f2fd blue lighten-5" style="padding:10px">
+      <div class="card-content black-text">
+        <span class="card-title blue-text">Book Appointment</span>
+        <p>You will be called with the confirmation of the appointment</p>
+
+      <form action='mail.php' class="form group" method="post" >
+
+        <div class="row">
+          <div class="input-field col s12 l6">
+            <i class="material-icons prefix">account_circle</i>
+            <input  id="first_name" type="text" class="validate" name="name"/>
+            <label for="first_name">Name</label>
+          </div>
+
+
+
+          <div class="input-field col s12 l6">
+            <i class="material-icons prefix">email</i>
+            <input  id="email" type="text" class="validate"/>
+            <label for="email">Email Address</label>
+          </div>
+
+
+
+          <div class="input-field col s12 l6">
+            <i class="material-icons prefix">call</i>
+            <input  id="phone" type="number" class="validate" />
+            <label for="phone">Phone Number</label>
+          </div>
+
+
+
+          
+
+          <div class="input-field col s12 l6" >
+            <i class="material-icons prefix"></i>
+            <select id="pain" multiple >
+              <option value="Eye">Eye</option>
+              <option value="Ear">Ear</option>
+              <option value="Nose">Nose</option>
+              <option value="Throat">Throat</option>
+            </select>
+            <label for="pain">Chief Complaint</label>
+          </div>
+
+
+          <div class="input-field col s12 l6">
+            <i class="material-icons prefix">date_range</i>
+            <input type="text" class="datepicker" id="date">
+            <label for="date">Select Date for Appointment</label>
+          </div>
+
+
+          <div class="input-field col s12 l6">
+            <i class="material-icons prefix">create</i>
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Any Comments?</label>
+          </div>
+
+
+        <button class="btn waves-effect waves-light blue" type="submit" name="submit" style="float:right">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ 
+
+<div class=" section" style="height:400px" id="wrapper">
+  <div id="map" class="section"> </div>
+  <div class="row">
+    <div class="card #1e88e5 blue darken-1 col s6 m3 l3" id="over_map" >
+        <div class="card-content white-text " style="padding:5%">
+          <p><b>Gala ENT and Eye Care</b></p><br/>
+          <p>6, Kailash Darshan, Grant Road, Mumbai-400007</p><br/>
+          <a style="color:orange" class="center-align" href="https://www.google.com/maps/dir//Galas+Day+Care+Nursing+Home,+Kennedy+Bridge,+Nana+Chowk,+Gamdevi,+Mumbai,+Maharashtra+400007/@18.9611255,72.778467,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3be7ce0d020ecab9:0x771741a7603569b!2m2!1d72.8134866!2d18.9610476!3e0"><i class="material-icons">directions</i><span>&nbsp&nbspDirections</span></a>
+        </div>
+      </div>
+    </div>
+</div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('select');
+       var options = document.querySelectorAll('option');
+       var instances = M.FormSelect.init(elems, options);
+      });
+    var map;
+    function initMap() {
+      var myCood = {lat: 18.961322, lng: 72.813422}
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 18.96, lng:72.81},
+        zoom: 15
+      });
+      var marker = new google.maps.Marker({
+      position: myCood,
+      map: map,
+      title: 'Gala ENT and Eye Care'
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+    window.location.href = "https://www.google.com/maps/dir//Galas+Day+Care+Nursing+Home,+Kennedy+Bridge,+Nana+Chowk,+Gamdevi,+Mumbai,+Maharashtra+400007/@18.9611255,72.778467,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3be7ce0d020ecab9:0x771741a7603569b!2m2!1d72.8134866!2d18.9610476!3e0";
+});
+    }
+  </script>
+  <script type="text/javascript" language="javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.getElementById('slider');
+      var instances = M.Slider.init(elems, {duration:1000, interval:2500, indicators:false});
+
+        var elems = document.querySelectorAll('select');
+         var options = document.querySelectorAll('option');
+         var instances = M.FormSelect.init(elems, options);
+
+
+
+     var elems = document.querySelectorAll('.sidenav');
+     var instances = M.Sidenav.init(elems);
+
+
+      var elems = document.querySelectorAll('.collapsible');
+      var instances = M.Collapsible.init(elems);
+    });
+
+
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd3yT-00TDYD1gYM6WWWKTO6kxOVr-ho8&callback=initMap"  async defer></script>
+
+  <!--Footer-->
+  <footer class="page-footer #1e88e5 blue darken-1">
+    <div class="">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4"></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="">
+      © Copyright 2020 Gala ENT and Eye Care. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+  </body>
+</html>

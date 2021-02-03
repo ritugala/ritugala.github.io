@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href='./main.css'>
+    <script src="./main.js"></script>
+    <title>Gala ENT and Eye Care</title>
+    <style>
+
+
+
+      /* Center website */
+      .main {
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      
+
+      /* Add padding BETWEEN each col */
+
+
+
+      .col {
+
+        display: none; /* Hide all elements by default */
+      }
+
+      /* Clear floats after rows */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Content */
+      .content {
+        background-color: white;
+        padding: 10px;
+      }
+
+      /* The "show" class is added to the filtered elements */
+      .show {
+        display: block;
+      }
+
+
+
+    </style>
+  </head>
+
+
+
+
+  <body>
+    
+  <body>
+
+
+    <!-- First Nav -->
+  <nav>
+    <div class="nav-wrapper #1e88e5 blue darken-1" id="detailsnav">
+      <ul class="center-align">
+        <li style="width:40%;"><a href="tel: +91-022-23823445"><i class="material-icons" style="display:inline-flex;vertical-align: top;">call</i>      022-23823435</a></li>
+        <li style="width:60%;"><a class="waves-effect waves-light btn" href="contactus.html#form" >Appointment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  
+  <!--Second Nav-->
+
+
+
+<nav class="#e3f2fd blue lighten-5 second_nav" style="color:#1e88e5" >
+  <div class="nav-wrapper" style="color:#1e88e5" >
+    <a href="index.html" class="brand-logo">
+      <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/cat-21-81494.png" alt="Logo" style="height:58px">
+    </a>
+    <a href="#" data-target="second_nav" class="sidenav-trigger  btn  center-align #e3f2fd blue lighten-5" style="color:black"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="hide-on-med-and-down temp center-align" style="margin-left:10%">
+
+      <li style="width:15%"><a href="index.html">Home</a></li>
+      <li style="width:15%"><a href="aboutus.html">About Us</a></li>
+      <li style="width:15%"><a href="services.html">Services </a>
+        <ul >
+          <li><a >ENT <span style="float:right">&#9656;</span></a>
+            <ul>
+              <li><a href='./services/ent/audiometry.html'>Audiometry</a></li>
+              <li><a href='./services/ent/rhinoplasty.html'>Rhinoplasty</a></li>
+              <li><a ref='./services/ent/hearing-aids.html'>Hearing Aids</a></li>
+              <li><a href='./services/ent/throat-surgery.html'>Throat Surgeries</a></li>
+              <li><a href='./services/ent/Uvulopalatopharyngoplasty.html'>Ear Surgeries</a></li>
+            </ul>
+          </li>
+          <li><a >Eye<span style="float:right">&#9656;</span></a>
+            <ul style="width:inherit">
+              <li><a href='./services/eye/catract.html'>Cataract</a></li>
+              <li><a href='./services/eye/glaucoma.html'>Glaucoma</a></li>           
+              <li><a href='./services/eye/squint.html'>Squint</a></li>
+              <li><a href='./services/eye/eyelid-disorders.html'>Eyelid Disorders</a></li>
+              <li><a href='./services/eye/dry-eyes.html'>Dry Eyes</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </li>
+      <li style="width:15%"><a href="faq.html">FAQs</a></li>
+      <li style="width:15%"><a href="gallery.html">Gallery</a></li>
+      <li style="width:15%"><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<!--Mobile side nav-->
+<ul class="sidenav #bbdefb blue lighten-4" id="second_nav" style="margin-left:0;margin-top: 115px;">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="faq.html">FAQs</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li>
+    <ul class="collapsible">
+      <li style="margin-left: 20px">
+        <a class="collapsible-header waves-effect waves-blue" >Services<i class="material-icons right" style="margin-right:0">arrow_drop_down</i></a>
+        <div class="collapsible-body">
+          <ul>
+            <li>
+              <ul class="collapsible">
+                <li>
+                  <a class="collapsible-header waves-effect waves-blue">ENT<i class="material-icons right" style="margin-right:0;">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/audiometry.html'>Audiometry</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/rhinoplasty.html'>Rhinoplasty</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/hearing-aids.html'>Hearing Aids</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/throat-surgery.html'>Throat Surgeries</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/ent/Uvulopalatopharyngoplasty.html'>Ear Surgeries</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="collapsible">
+                <li>
+                  <a class="collapsible-header waves-effect waves-blue">Eye<i class="material-icons right" style="margin-right:0;">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a class="waves-effect waves-blue" href='./services/eye/catract.html'>Cataract</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/eye/glaucoma.html'>Glaucoma</a></li>           
+                      <li><a class="waves-effect waves-blue" href='./services/eye/squint.html'>Squint</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/eye/eyelid-disorders.html'>Eyelid Disorders</a></li>
+                      <li><a class="waves-effect waves-blue" href='./services/eye/dry-eyes.html'>Dry Eyes</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li><div class="divider"></div></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </li>
+
+  <li><a href="contactus.html">Contact Us</a></li>
+</ul>
+
+<div class="fixed-action-btn" >
+  <a class="btn-floating btn-large blue" id="myBtn" style="display: none;" onclick="topFunction()">
+    <i class="large material-icons">keyboard_arrow_up</i>
+  </a>
+</div>
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+  <div id="myBtnContainer" class="section">
+    <button class="btn active waves-effect waves-light active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn  waves-effect waves-light " onclick="filterSelection('nature')"> Nature</button>
+    <button class="btn  waves-effect waves-light " onclick="filterSelection('animal')"> Animal</button>
+
+  </div>
+
+  <style>
+    .active{
+      background-color: black;
+      color: white;
+    }
+  </style>
+
+  <!-- Portfolio Gallery Grid -->
+
+  <div class="row section">
+    <div class="col flower nature s6 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/pic1.jpg" alt="Mountains" style="width:100%" class="responsive-img">        </div>
+      </div>
+    </div>
+    <div class="col nature s6 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/pic3.jpg" alt="Mountains" style="width:100%" class="responsive-img">        </div>
+      </div>
+    </div>
+
+    <div class="col animal s6 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/pic4.jpg" alt="Mountains" style="width:100%" class="responsive-img">
+
+        </div>
+      </div>
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("col");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<div class="fixed-action-btn" >
+  <a class="btn-floating btn-large red" id="myBtn" style="display: none;" onclick="topFunction()">
+    <i class="large material-icons">keyboard_arrow_up</i>
+  </a>
+</div>
+
+<script type="text/javascript" language="javascript">
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.getElementById('slider');
+    var instances = M.Slider.init(elems, {duration:1000, interval:2500, indicators:false});
+
+      var elems = document.querySelectorAll('select');
+       var options = document.querySelectorAll('option');
+       var instances = M.FormSelect.init(elems, options);
+
+
+
+   var elems = document.querySelectorAll('.sidenav');
+   var instances = M.Sidenav.init(elems);
+
+
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems);
+  });
+
+
+</script>
+
+
+
+
+
+<!--Footer-->
+<footer class="page-footer #1e88e5 blue darken-1">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4"></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © Copyright 2020 Gala ENT and Eye Care. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+
+
+  </body>
+</html>
